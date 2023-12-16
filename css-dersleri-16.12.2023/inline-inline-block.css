@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 25px;
+}
+
+.links-left{
+    display: inline-block;
+    width: calc(35% - 10px);
+    
+}
+
+.links-center{
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+}
+
+.links-right{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    
+}

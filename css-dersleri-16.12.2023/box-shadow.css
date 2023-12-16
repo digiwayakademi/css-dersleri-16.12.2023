@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-title{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.plan{
+    background: #C2D9FF;
+    text-align: center;
+    padding: 16px;  
+    margin: 5px;  
+    width: 30%;
+    float: left;
+    border-radius: 8px;
+    box-shadow:  0px 22px 70px 4px rgba(0, 0, 0, 0.57);
+    transition: box-shadow 0.6s;
+    
+}
+
+.plan:hover{
+   
+    box-shadow:  0px 22px 70px 4px rgba(0, 0, 0, 1);
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.plan ul{
+    list-style-type: none;
+}
+
+.plan h2{
+    background-color: #000;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.plan h3{
+   font-weight: 900;
+   font-size: 16px;  
+   margin-bottom: 8px; 
+}
+
+.plan ul li{
+  padding: 6px 0px; 
+  font-weight: 600; 
+}
+
+.plan button{
+    background-color: #7752FE;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 2px solid #7752FE;
+    margin-top: 15px;
+    transition-duration: 0.6s;
+}
+
+.plan button:hover{
+    background-color: #fff;
+    color: #7752FE;
+    border: 2px solid #7752FE;
+}
+
+#secondary-plan{
+    background: #ED9ED6;
+    text-align: center;
+    padding: 16px;  
+    margin: 5px;  
+    width: 30%;
+    float: left;
+    border-radius: 8px;
+    color: #190482;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+

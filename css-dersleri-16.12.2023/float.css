@@ -1,0 +1,25 @@
+
+#container{
+   background-color: chocolate; 
+   
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    float: right;
+    
+}
+
+#box1{
+    float: left;
+}
+
+
+/* Clear 2. yöntem tavsiye edilen yöntem bu */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

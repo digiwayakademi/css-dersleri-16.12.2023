@@ -1,0 +1,19 @@
+
+
+img{
+    width: 500px;
+    float: right;
+    margin-right: 20px;
+}
+
+p{
+    border: 5px solid red;
+    padding: 10px;
+}
+
+/* Clear 2. yöntem tavsiye edilen yöntem bu */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

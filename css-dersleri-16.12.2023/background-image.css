@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: coral;
+    padding: 15px;
+}
+
+.main-top{
+    background: url("home-bg.jpeg");
+    height: 500px;
+    background-position: center;
+}
